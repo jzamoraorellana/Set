@@ -12,6 +12,8 @@
 		BCDF073621602402004C8CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDF073421602402004C8CFA /* Main.storyboard */; };
 		BCDF073821602411004C8CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDF073721602411004C8CFA /* Assets.xcassets */; };
 		BCDF073B21602411004C8CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDF073921602411004C8CFA /* LaunchScreen.storyboard */; };
+		BCDF0743216024FE004C8CFA /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDF0742216024FE004C8CFA /* Card.swift */; };
+		BCDF07452160345A004C8CFA /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDF07442160345A004C8CFA /* Set.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BCDF073721602411004C8CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCDF073A21602411004C8CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCDF073C21602411004C8CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDF0742216024FE004C8CFA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BCDF07442160345A004C8CFA /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 		BCDF072F21602402004C8CFA /* Set */ = {
 			isa = PBXGroup;
 			children = (
+				BCDF07442160345A004C8CFA /* Set.swift */,
 				BCDF073021602402004C8CFA /* AppDelegate.swift */,
+				BCDF0742216024FE004C8CFA /* Card.swift */,
 				BCDF073221602402004C8CFA /* ViewController.swift */,
 				BCDF073421602402004C8CFA /* Main.storyboard */,
 				BCDF073721602411004C8CFA /* Assets.xcassets */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCDF07452160345A004C8CFA /* Set.swift in Sources */,
 				BCDF073321602402004C8CFA /* ViewController.swift in Sources */,
+				BCDF0743216024FE004C8CFA /* Card.swift in Sources */,
 				BCDF073121602402004C8CFA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AM9VRY4DQ;
 				INFOPLIST_FILE = Set/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AM9VRY4DQ;
 				INFOPLIST_FILE = Set/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
